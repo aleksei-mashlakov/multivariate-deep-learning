@@ -19,6 +19,8 @@ The initial dataset was preprocessed by removing the capacity and profile data, 
 
 ## Source code 
 
+The code used for the experiments was based on open source projects and modified for the needs of experiments by Aleksei Mashlakov and Toni Kuronen.
+
 DSANet was modified from https://github.com/bighuang624/DSANet
 
 DeepAR was modified from https://github.com/zhykoties/TimeSeries
@@ -26,3 +28,5 @@ DeepAR was modified from https://github.com/zhykoties/TimeSeries
 LSTNet was modified from https://github.com/fbadine/LSTNet
   
 DeepTCN was modified from https://github.com/oneday88/deepTCN/tree/master/electricity
+
+

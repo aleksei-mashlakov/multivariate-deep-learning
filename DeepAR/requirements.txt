@@ -1,0 +1,11 @@
+#numpy==1.16.0
+#pandas==0.25.0
+#scipy==1.1.0 
+#torch==0.4.1
+torch==0.4.1.post2
+torchvision==0.2.1
+tqdm==4.26.0
+#mlflow
+#matplotlib==3.1.1
+#pickle
+#json

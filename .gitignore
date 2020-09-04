@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.pyc
+*.pyo
+
+nohup.out
+.DS_Store
+*.npy
+*.csv
+*.ipynb_checkpoints

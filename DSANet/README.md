@@ -1,3 +1,12 @@
+#DSANet
+
+## Modifications to the initial implementation by https://github.com/bighuang624/DSANet:
+- hyper-parameter optimization with [hyperopt](https://github.com/hyperopt/hyperopt)
+
+To run the experiment please see [batch jobs](batch jobs) folder.
+
+------------------------------------------------------------------------
+
 # Dual Self-Attention Network for Multivariate Time Series Forecasting
 
 This project is the PyTorch implementation of the paper "[DSANet: Dual Self-Attention Network for Multivariate Time Series Forecasting](https://dl.acm.org/citation.cfm?doid=3357384.3358132)", in which we propose a dual self-attention network (DSANet) for multivariate time series forecasting. The network architecture is illustrated in the following figure, and more details about the effect of each component can be found in the paper.

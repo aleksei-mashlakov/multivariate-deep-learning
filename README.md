@@ -1,4 +1,4 @@
-# multivariate-deep-learning
+# Multivariate Deep Learning
 
 ## Datasets 
 

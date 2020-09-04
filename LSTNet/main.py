@@ -142,7 +142,7 @@ def optimize_model(hyperparameters):
     elif (nd == np.nan):
         nd = 1.
     elif nd == 'nan':
-        nd = 1. 
+        nd = 1.
 
     result = {'loss': nd,
               'rse':rse,

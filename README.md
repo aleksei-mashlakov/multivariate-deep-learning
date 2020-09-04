@@ -1,6 +1,6 @@
 # Multivariate Deep Learning
 
-Please cite the following paper if you use the dataset or modified source code:
+Please cite the following paper if you find the dataset or modified source code helpful for your research:
 
 ```
 @article{mashlakov2020assessing,

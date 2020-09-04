@@ -17,7 +17,7 @@ Please cite the following paper if you use the dataset or modified source code:
 
 ## Datasets
 
-The datasets are located under [datasets](datasets) folder. To run the codes, please unzip and move the datasets in the corresponding data folder of the model repository.
+The datasets are located under [datasets](./datasets) folder. To run the codes, please unzip and move the datasets in the corresponding data folder of the model repository.
 > Example.
 
 ```
@@ -52,10 +52,10 @@ The initial dataset was preprocessed by removing the capacity and profile data, 
 
 The code used for the experiments was heavily based on open source projects listed below and modified for the needs of experiments. You can find the description of the modifications in the corresponding model folders.
 ```
-- [DSANet](DSANet) was modified from https://github.com/bighuang624/DSANet
-- [DeepAR](DeepAR) was modified from https://github.com/zhykoties/TimeSeries
-- [LSTNet](LSTNet) was modified from https://github.com/fbadine/LSTNet
-- [DeepTCN](DeepTCN) was modified from https://github.com/oneday88/deepTCN/tree/master/electricity
+- [DSANet](./DSANet) was modified from https://github.com/bighuang624/DSANet
+- [DeepAR](./DeepAR) was modified from https://github.com/zhykoties/TimeSeries
+- [LSTNet](./LSTNet) was modified from https://github.com/fbadine/LSTNet
+- [DeepTCN](./DeepTCN) was modified from https://github.com/oneday88/deepTCN/tree/master/electricity
 ```
 
 ## Authors

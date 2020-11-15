@@ -4,7 +4,7 @@ Please cite the following paper if you find the dataset or modified source code 
 
 ```
 @article{mashlakov2020assessing,
-  title={Assessing the Applicability of Deep Learning Models for Multivariate Probabilistic Time Series Forecasting in Power Systems},
+  title={Assessing the Performance of Deep Learning Models for Multivariate Probabilistic Energy Forecasting},
   author={Mashlakov, Aleksei and Kuronen, Toni and Lensu, Lasse and Kaarna, Arto and Honkapuro, Samuli},
   journal={},
   volume={},

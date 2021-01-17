@@ -3,15 +3,16 @@
 Please cite the following paper if you find the dataset or modified source code helpful for your research:
 
 ```
-@article{mashlakov2020assessing,
-  title={Assessing the Performance of Deep Learning Models for Multivariate Probabilistic Energy Forecasting},
+@article{mashlakov2021assessing,
+  title={Assessing the performance of deep learning models for multivariate probabilistic energy forecasting},
   author={Mashlakov, Aleksei and Kuronen, Toni and Lensu, Lasse and Kaarna, Arto and Honkapuro, Samuli},
   journal={Applied Energy},
-  volume={},
+  volume={285},
   number={},
   pages={},
   year={2021},
-  publisher={}
+  publisher={},
+  doi={https://doi.org/10.1016/j.apenergy.2020.116405}
 }
 ```
 

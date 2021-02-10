@@ -1,7 +1,20 @@
 # Multivariate Deep Learning
 
-Please cite the following paper if you find the dataset or modified source code helpful for your research:
+<!--toc-->
+## Contents
+- [Manuscript](#manuscript)
+- [Datasets](#datasets)
+  - [Electricity](#electricity)
+  - [Open power system](#open power system)
+- [Results](#results)
+- [Source code](#source code)
+- [Authors](#authors)
+<!--toc_end-->
 
+
+## Manuscript
+
+This repository contains the source code utilized for the following paper:
 ```
 @article{mashlakov2021assessing,
   title={Assessing the performance of deep learning models for multivariate probabilistic energy forecasting},
@@ -11,10 +24,11 @@ Please cite the following paper if you find the dataset or modified source code 
   number={},
   pages={},
   year={2021},
-  publisher={},
+  publisher={Elsevier},
   doi={https://doi.org/10.1016/j.apenergy.2020.116405}
 }
 ```
+Please cite the following paper if you find the dataset or modified source code helpful for your research.
 
 ## Datasets
 
@@ -48,6 +62,13 @@ The dataset corresponds to [Time Series data package](https://data.open-power-sy
 The dataset represents the data originating from the European market bidding zones. This dataset contains a diverse mix of time series namely electricity consumption, market prices, wind and solar power generation with hourly resolution.
 The initial dataset was preprocessed by removing the capacity and profile data, as well as series whose percentage of missing values exceeds 5\% for the defined time period. It was also limited in time for the period from January 2015 to November 2017. As a result, the data consists of 183 variables where 59 are related to load, 31 to price, 57 to wind and 36 to solar.
 
+## Results
+
+![Statistical test: accuracy and quantile risk](./results/stat_test.jpg)
+> #### Results of the conducted one-sided Diebold–Mariano tests at the 5% significance levels on the electricity (a) and open power system (b) datasets for point accuracy (ND and NRMSE) and quantile risk (wQL) of 0.1 and 0.9 quantiles per particular (from left to right by diagonal: 3, 6, 12, 24, and 36 h) horizons. A red (blue) square indicates that the forecasts of a model on the -axis are significantly better (worse) than the forecasts of a model on the -axis for a particular horizon, whereas an absence of square indicates that the forecasts are not significantly different for a particular horizon.
+
+![Statistical test: prediction interval coverage](./results/coverage_test.jpg)
+> #### Results of the Christoffersen tests on unconditional and conditional LR statistics for the electricity (a) and open power system (b) datasets. The statistics is obtained for day-ahead (36 h ahead) forecast of 80% prediction interval (PI) separately for each 24 h of the next day. The solid (dashed) horizontal lines represent the 1% (5%) significance level of the appropriate distribution. All the test values exceeding 20 are set to 20.
 
 ## Source code
 

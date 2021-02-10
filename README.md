@@ -81,7 +81,7 @@ The code used for the experiments was heavily based on open source projects list
 - [DeepAR](DeepAR) was modified from https://github.com/zhykoties/TimeSeries
 - [LSTNet](LSTNet) was modified from https://github.com/fbadine/LSTNet
 - [DeepTCN](DeepTCN) was modified from https://github.com/oneday88/deepTCN/tree/master/electricity
-- [FFNN](https://github.com/awslabs/gluon-ts/tree/master/src/gluonts/model/simple_feedforward) from GluonTS library 
+- [FFNN](FFNN) from [GluonTS](https://github.com/awslabs/gluon-ts/tree/master/src/gluonts/model/simple_feedforward) library 
 - [Naive](Naive) persistence models 
 
 ## Authors

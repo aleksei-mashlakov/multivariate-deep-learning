@@ -16,7 +16,7 @@ This repository contains the source code utilized for the following paper:
 ```
 @article{mashlakov2021assessing,
   title={Assessing the performance of deep learning models for multivariate probabilistic energy forecasting},
-  author={Mashlakov, Aleksei and Kuronen, Toni and Lensu, Lasse and Kaarna, Arto and Honkapuro, Samuli},
+  author={Mashlakov, A., Kuronen, T., Lensu, L., Kaarna, A., and Honkapuro, S.},
   journal={Applied Energy},
   volume={285},
   pages={116405},

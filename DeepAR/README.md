@@ -7,7 +7,7 @@
 - saving predictions in evaluate.py
 - new parser arguments were added
 
-To run the experiment please see [batch jobs](batch jobs) folder.
+To run the experiment please see [batch jobs](batch_jobs) folder.
 
 ------------------------------------------------------------------
 

@@ -63,7 +63,7 @@ The initial dataset was preprocessed by removing the capacity and profile data, 
 
 > ### Diebold–Mariano test
 
-Results of the conducted one-sided Diebold–Mariano tests at the 5% significance levels on the electricity (a) and open power system (b) datasets for point accuracy (ND and NRMSE) and quantile risk (wQL) of 0.1 and 0.9 quantiles per particular (from left to right by diagonal: 3, 6, 12, 24, and 36 h) horizons. A red (blue) square indicates that the forecasts of a model on the -axis are significantly better (worse) than the forecasts of a model on the -axis for a particular horizon, whereas an absence of square indicates that the forecasts are not significantly different for a particular horizon.
+Results of the conducted one-sided Diebold–Mariano tests at the 5% significance levels on the electricity (a) and open power system (b) datasets for point accuracy (ND and NRMSE) and quantile risk (wQL) of 0.1 and 0.9 quantiles per particular (from left to right by diagonal: 3, 6, 12, 24, and 36 h) horizons. A red (blue) square indicates that the forecasts of a model on the x-axis are significantly better (worse) than the forecasts of a model on the y-axis for a particular horizon, whereas an absence of square indicates that the forecasts are not significantly different for a particular horizon.
 
 ![Statistical test: accuracy and quantile risk](./results/stat_test.jpg)
 
